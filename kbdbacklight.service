@@ -1,0 +1,13 @@
+[Unit]
+Description=MacBook Keyboard Backlight
+Wants=systemd-backlight@leds:smc::kbd_backlight.service
+After=systemd-backlight@leds:smc::kbd_backlight.service
+
+[Service]
+ExecStart=/usr/sbin/kbdbacklight -S
+ExecStartPost=/bin/echo "kbdbacklight started"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+Alias=kbdbacklight.service

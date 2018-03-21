@@ -23,7 +23,7 @@ You can build the project with
 ```
 make
 ```
-If you use systemd then you can install the programm and service with
+If you use systemd then you can install the program and service with
 ```
 make install
 ```

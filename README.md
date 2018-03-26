@@ -66,5 +66,5 @@ Set backlight to maximum
 kbdbacklight -m
 ```
 ## License
-This project is licensed under GNU GPL - see [LICENSE.md](LICENSE.md) for
+This project is licensed under GNU GPL - see [LICENSE](LICENSE) for
 details
